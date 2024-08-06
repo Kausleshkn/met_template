@@ -1,0 +1,64 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+
+.btn-style-two:hover
+{
+  background-color: white;
+}
+
+.intro_Profile
+{
+  margin-top: -80px;
+}
+@media screen and (max-width: 768px)
+{
+  .contact-form
+  {
+    padding-top: 20px;
+  }
+}
+/* Add a right margin to each icon */
+.fas {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+.btn-style-letsbegin
+{
+  background-color: #ffffff;
+  color: #444444;
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
+    }
+    .scroll-to-top2 {
+        position: fixed;
+        bottom: 120px;
+        /*left: 15px;*/
+        right: 12px;
+        text-align: center;
+        z-index: 100;
+        background-color:light-blue;
+    }
+    @media screen and (max-width: 768px) {
+        .scroll-to-top2{
+            top: 434px
+            /*bottom: 87px;*/
+        }
+        
+    }
+    @media screen and (max-width: 568px) {
+        .scroll-to-top2{
+            /*bottom: 87px;*/
+            top: 570px
+        }
+    }
